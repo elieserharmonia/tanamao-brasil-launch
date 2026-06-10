@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="theme-color" content="#FFD100" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TáNaMão Brasil - Offline</title>
+
   <style>
-    body { font-family: sans-serif; text-align: center; background: #F5F5F5; color: #0D0D0D; padding: 2rem; }
-    h1 { font-size: 2rem; margin-bottom: 1rem; }
-    p { font-size: 1.2rem; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #FFD100;
+      color: #0D0D0D;
+      font-family: Arial, sans-serif;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      text-align: center;
+    }
+
+    main {
+      background: #FFFFFF;
+      max-width: 500px;
+      padding: 32px;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      color: rgba(13, 13, 13, 0.7);
+      line-height: 1.5;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      background: #0D0D0D;
+      color: #FFD100;
+      text-decoration: none;
+      font-weight: 900;
+      padding: 14px 20px;
+      border-radius: 14px;
+    }
   </style>
 </head>
+
 <body>
-  <h1>TáNaMão Brasil</h1>
-  <p>Você está offline. Conecte-se à internet para continuar usando o aplicativo.</p>
+  <main>
+    <h1>TáNaMão Brasil</h1>
+    <p>Você está offline. Conecte-se à internet para continuar usando o aplicativo.</p>
+    <a href="/">Tentar novamente</a>
+  </main>
 </body>
 </html>
