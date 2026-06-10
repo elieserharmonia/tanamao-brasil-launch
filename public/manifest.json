@@ -1,29 +1,34 @@
 {
-  "short_name": "TáNaMão",
   "name": "TáNaMão Brasil",
+  "short_name": "TáNaMão",
+  "description": "O Brasil encontra aqui. Encontre profissionais e empresas perto de você.",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFD100",
+  "theme_color": "#FFD100",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "utilities"],
   "icons": [
     {
-      "src": "logo192.png",
+      "src": "/logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any"
     },
     {
-      "src": "logo512.png",
+      "src": "/logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any"
     },
     {
-      "src": "maskable-icon-512.png",
+      "src": "/maskable-icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     }
-  ],
-  "start_url": "/",
-  "scope": "/",
-  "display": "standalone",
-  "theme_color": "#FFD100",
-  "background_color": "#FFFFFF",
-  "orientation": "portrait-primary",
-  "lang": "pt-BR"
+  ]
 }
