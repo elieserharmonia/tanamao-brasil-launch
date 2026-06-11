@@ -1,0 +1,38 @@
+TÁNAMÃO BRASIL - PARTE 1
+========================
+
+Elieser, esta é a base limpa do aplicativo.
+
+COMO USAR NO GITHUB:
+
+1. Abra este ZIP.
+2. Entre na pasta chamada "arquivos".
+3. Copie cada arquivo para o mesmo caminho dentro do seu repositório.
+4. Se o arquivo já existir, substitua tudo.
+5. Se a pasta não existir, crie a pasta.
+6. Faça commit no GitHub.
+
+ARQUIVOS DESTA PARTE:
+
+- package.json
+- index.html
+- vite.config.ts
+- tailwind.config.js
+- postcss.config.js
+- vercel.json
+- src/main.tsx
+- src/App.tsx
+- src/index.css
+
+IMPORTANTE:
+
+Esta Parte 1 não usa Supabase ainda.
+Esta Parte 1 não usa Mercado Pago ainda.
+O objetivo agora é fazer o app subir sem erro.
+
+Depois que colocar no GitHub, rode ou deixe a Vercel rodar:
+
+npm install
+npm run build
+
+Depois me mande o resultado.
